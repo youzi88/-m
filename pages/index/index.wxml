@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="today">今天天气情况</view>
+ 
+    <view class="info">
+    <view class="temp">{{temp}}℃</view>
+    <view class="lowhigh">{{low}}/{{high}}</view>
+    <view class="city">{{city}}</view>
+    <view class="week">{{week}}</view>
+    <view class="weather">{{weather}}</view>
+    </view>
+  
+</view>
